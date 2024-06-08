@@ -1,0 +1,53 @@
+body {
+    font-family: "Titillium Web",
+        sans-serif;
+}
+main {
+    min-height: 100vh;
+    background-color: #24353f;
+    padding-top: 50px;
+}
+.container {
+    box-shadow: -5px 2px 54px -9px black;
+}
+.form-control {
+    background-color: transparent;
+}
+.form-control:focus {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.form-control:placeholder-shown {
+    color: white;
+}
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.btn:hover , :not(.btn-check)+.btn:active{
+    color: white;
+}
+p {
+    color: white;
+    font-size: 1.1rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#signInAnchor:hover , #signUpAnchor:hover {
+    text-decoration: underline;
+}
+#signInAnchor , #signUpAnchor {
+    cursor: pointer;
+}
+.container {
+    width: 55%;
+}
+@media (max-width:768px) {
+    .container {
+        width: 75%;
+    }
+}

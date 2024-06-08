@@ -1,0 +1,80 @@
+body {
+    font-family: "Titillium Web",
+        sans-serif;
+}
+#home {
+    background-color: #24353f;
+}
+/* Start Nav */
+nav {
+        background-color: #24353f;
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.navbar {
+        padding-right: 1rem;
+            padding-left: 1rem;
+}
+.navbar-brand {
+    color: white;
+    font-size: 1.3rem;
+}
+.navbar-brand:hover {
+    color: white;
+}
+.nav-link { 
+    color: rgba(255, 255, 255, 0.551);
+    border: 1px solid #ffc107;
+}
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.551);
+}
+.nav-link:focus {
+    color: rgba(255, 255, 255, 0.551);
+}
+.btn:first-child:active {
+    color: rgba(255, 255, 255, 0.551);;
+}
+.nav-link:focus-visible {
+    box-shadow: none;
+}
+nav .container {
+    padding: 0 15px;
+    margin:0 75px;
+}
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.2);
+        width: 50px;
+            height: 40px;
+        
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px;
+}
+.navbar-toggler span {
+    color: rgba(255, 255, 255, 0.784);
+    width: 20px;
+}
+@media (max-width:992px) {
+    nav ul li {
+        margin-top: 10px;
+    }
+}
+/* End Nav */
+/* MAIN */
+main {
+    height: calc(100vh - 117px);
+}
+main h1 {
+        color: #17a2b8;
+}
+main div {
+    padding: 3rem;
+            box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+@media (max-width:576px) {
+    nav .container {
+        margin: 0;
+    }
+}

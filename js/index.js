@@ -43,6 +43,7 @@ function registration() {
 function moveToAnotherWebsite() {
     window.location.replace("https://ahmed-dev-cpu.github.io/loginSystem/page3/home.html")
 
+
 }
 const login = document.getElementById("login")
 

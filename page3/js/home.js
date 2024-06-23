@@ -1,6 +1,6 @@
 const logout = document.getElementById("logout")
 logout.addEventListener("click", function () {
-    window.location.href = "../../index.html"
+    window.location.replace("https://ahmed-dev-cpu.github.io/loginSystem/")
 
 })
 const userName = localStorage.getItem("nameOfUser")

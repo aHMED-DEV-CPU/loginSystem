@@ -64,5 +64,6 @@ function emailValidate() {
     }
 }
 function moveToAnotherWebsite() {
-    window.location.href = "../../index.html"
+    window.location.replace("https://ahmed-dev-cpu.github.io/loginSystem/")
+
 }
